@@ -15,10 +15,6 @@ public class Money {
         this.cents = otherObject.cents;
     }
 
-    public Money() {
-        //TODO Auto-generated constructor stub
-    }
-
     // Add method
     public Money add(Money otherAmount) {
         long totalCents = this.toCents() + otherAmount.toCents();
